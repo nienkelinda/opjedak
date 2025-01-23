@@ -37,6 +37,7 @@ nav {
 nav ul {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 0;
 }
 
@@ -132,13 +133,13 @@ h3 {
 .voordelen h2 {
     color: #FDFFF4;
     padding-top: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .voordelen p {
     color: #FDFFF4;
     margin-bottom: 0;
-    padding: 0 10px 3em;
+    padding: 0 10px 1em;
 }
 
 .voordelen ul {
@@ -252,11 +253,36 @@ section img {
     padding: 0 10px;
 }
 
-.uitroepteken {
-    position: absolute;
-    height: 265px;
+section.cta {
+    height:245px;
+    background-color: #0B6259;
 }
 
-section.cta {
-    height:220px;
+section.cta h2 {
+    color: #FDFFF4;
+    padding-top: 1em;
+}
+
+section.cta p {
+    color: #FDFFF4;
+}
+
+.gebouw {
+    margin-bottom: 1em;
+}
+
+.ikvind {
+    background-color: #0B6259;
+}
+
+.ikvind h2 {
+    color: #FDFFF4;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+.ikvind p {
+    color: #FDFFF4;
+    margin-bottom: 0;
+    padding: 0 10px 3em;
 }
